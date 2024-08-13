@@ -30,11 +30,11 @@ After some minutes the deployment should have been a success and you can find yo
 
 - **Deploy your API Gateway**: The API Gateway needs a manual deployment, this can be done from the `Deploy` button in the API Gateway console UI. Feel free to use the default `prod` stage.
 
-![Make sure you manually "deploy" your API!](<deploy-screenshot.png>)
+![Make sure you manually "deploy" your API!](deploy-screenshot.png)
 
 The API will now be deployed and you have access to an unauthenticated URL you can now invoke
 
-![This is your API URL](<api-url.png>)
+![This is your API URL](api-url.png)
 
 - **Seed your API**: You can now run some prepared API requests to simulate real users from the [Postman collection](https://learning.postman.com/docs/getting-started/importing-and-exporting/importing-data/) (init.postman_collection.json) at the root of this repo. 
 
