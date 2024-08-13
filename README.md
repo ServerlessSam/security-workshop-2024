@@ -8,7 +8,7 @@ The existing application is an API that allows GP practices to submit patient di
 
 The architecture looks something like this:
 
-![architecture diagram for our initial service](<architecture.png>)
+![architecture diagram for our initial service](./architecture.png)
 
 ### Before You Start
 
