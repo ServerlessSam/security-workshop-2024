@@ -1,0 +1,20 @@
+CDK bootstrap
+CDK deploy
+
+Deploy API GW in console
+
+Postman collection x3 requests
+
+---- Macie ----
+Enable
+
+Start job w/name and UK nat in enabled
+
+leave for 10-20 minutes
+
+
+---- Config ----
+Enable
+
+---- Guard Duty ----
+Enable

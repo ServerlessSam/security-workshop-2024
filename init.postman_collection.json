@@ -1,0 +1,105 @@
+{
+	"info": {
+		"_postman_id": "a9a0a78b-9af0-47b2-8b7f-b852fe451821",
+		"name": "Vulnerable To Secure: Example API Requests",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "29068873"
+	},
+	"item": [
+		{
+			"name": "Hello World Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"patientName\": \"John Doe\",\n  \"nationalinsurancenumber\": \"123456\",\n  \"diagnosisId\": \"diag001\",\n  \"diagnosisDetails\": \"Mild cold\",\n  \"date\": \"2024-08-09\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://regyo60164.execute-api.eu-central-1.amazonaws.com/prod/patient",
+					"protocol": "https",
+					"host": [
+						"regyo60164",
+						"execute-api",
+						"eu-central-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"prod",
+						"patient"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "3rd Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"patientName\": \"John Doe\",\n  \"nationalinsurancenumber\": \"123456\",\n  \"diagnosisId\": \"diag001\",\n  \"diagnosisDetails\": \"John Doe had the flue\",\n  \"date\": \"2024-07-24\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://regyo60164.execute-api.eu-central-1.amazonaws.com/prod",
+					"protocol": "https",
+					"host": [
+						"regyo60164",
+						"execute-api",
+						"eu-central-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"prod"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "2nd Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n  \"patientName\": \"Samuel Lock\",\n  \"nationalinsurancenumber\": \"789101112\",\n  \"diagnosisId\": \"diag002\",\n  \"diagnosisDetails\": \"Acute Appendicitis\",\n  \"date\": \"2024-08-10\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://jtvuj3xh7e.execute-api.eu-central-1.amazonaws.com/prod/patient",
+					"protocol": "https",
+					"host": [
+						"jtvuj3xh7e",
+						"execute-api",
+						"eu-central-1",
+						"amazonaws",
+						"com"
+					],
+					"path": [
+						"prod",
+						"patient"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
