@@ -12,10 +12,10 @@ The architecture looks something like this:
 
 ### Before You Start
 
-This project uses the node.JS AWS CDK for deployments. The lambda function is written in Node.JS, however we will not be doing much coding, so don't worry if JS-languages are not your strength.
+This project uses the Typescript AWS CDK for deployments. The lambda function is written in Node.JS, however we will not be doing much coding, so don't worry if JS-languages are not your strength.
 
 You will need the following before getting started with the workshop:
-- **An AWS account sandbox**: The emptier, the better. For the purposes of this workshop it would be best to have access to an admin user for simplicity.
+- **An AWS account sandbox**: The emptier, the better. For the purposes of this workshop it would be best to have access to an admin user for simplicity. This workshop was created and tested in the **eu-central-1** region. I would recommend you use this region regardless of your physical location. This guarentees there will be no region-specific restrictions that impact your experience.
 - **CDK bootstrapped**: You will need to [install and bootstrap your AWS account](https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html). Complete up to and including step 7.
 - **A method of making API calls**: My recommendation is [Postman](https://learning.postman.com/docs/getting-started/first-steps/overview/), this will allow you to use my examples directly.
 

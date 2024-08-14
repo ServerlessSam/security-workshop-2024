@@ -5,16 +5,26 @@ Deploy API GW in console
 
 Postman collection x3 requests
 
+--- Enablement ---
+Enable Macie
+Enable GuardDuty
+Enable Config
+
 ---- Macie ----
-Enable
-
 Start job w/name and UK nat in enabled
-
 leave for 10-20 minutes
 
 
 ---- Config ----
-Enable
+(s3-bucket-level-public-access-prohibited)
 
 ---- Guard Duty ----
-Enable
+Check and root user flagged up
+
+--- Security Hub ---
+Add S3 bucket critical rule
+
+Add eventbridge rule
+ - Create SNS topic + subcription
+
+Redo Macie Job
