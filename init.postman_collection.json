@@ -45,7 +45,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n  \"patientName\": \"John Doe\",\n  \"nationalinsurancenumber\": \"123456\",\n  \"diagnosisId\": \"diag001\",\n  \"diagnosisDetails\": \"John Doe had the flue\",\n  \"date\": \"2024-07-24\"\n}",
+					"raw": "{\n  \"patientName\": \"X\",\n  \"nationalinsurancenumber\": \"123456\",\n  \"diagnosisId\": \"diag001\",\n  \"diagnosisDetails\": \"John Doe had the flue\",\n  \"date\": \"2024-07-24\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -53,17 +53,18 @@
 					}
 				},
 				"url": {
-					"raw": "https://regyo60164.execute-api.eu-central-1.amazonaws.com/prod",
+					"raw": "https://fbsmsz40jd.execute-api.eu-central-1.amazonaws.com/prod/patient",
 					"protocol": "https",
 					"host": [
-						"regyo60164",
+						"fbsmsz40jd",
 						"execute-api",
 						"eu-central-1",
 						"amazonaws",
 						"com"
 					],
 					"path": [
-						"prod"
+						"prod",
+						"patient"
 					]
 				}
 			},
