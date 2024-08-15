@@ -76,7 +76,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\n  \"patientName\": \"Samuel Lock\",\n  \"nationalinsurancenumber\": \"789101112\",\n  \"diagnosisId\": \"diag002\",\n  \"diagnosisDetails\": \"Acute Appendicitis\",\n  \"date\": \"2024-08-10\"\n}",
+					"raw": "{\n  \"patientName\": \"Samuel Lock\",\n  \"nationalinsurancenumber\": \"WT 96 40 08 B\",\n  \"diagnosisId\": \"diag002\",\n  \"diagnosisDetails\": \"Acute Appendicitis\",\n  \"date\": \"2024-08-10\"\n}",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -84,10 +84,10 @@
 					}
 				},
 				"url": {
-					"raw": "https://jtvuj3xh7e.execute-api.eu-central-1.amazonaws.com/prod/patient",
+					"raw": "https://fbsmsz40jd.execute-api.eu-central-1.amazonaws.com/prod/patient",
 					"protocol": "https",
 					"host": [
-						"jtvuj3xh7e",
+						"fbsmsz40jd",
 						"execute-api",
 						"eu-central-1",
 						"amazonaws",

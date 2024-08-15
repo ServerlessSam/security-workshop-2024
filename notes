@@ -17,12 +17,17 @@ leave for 10-20 minutes
 
 ---- Config ----
 (s3-bucket-level-public-access-prohibited)
+S3 bucket add to parameter
+Re-evaluate
 
 ---- Guard Duty ----
 Check and root user flagged up
 
 --- Security Hub ---
 Add S3 bucket critical rule
+
+--- Security Hub Clean up ---
+Disable rules that don't apply
 
 Add eventbridge rule
  - Create SNS topic + subcription
