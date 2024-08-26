@@ -9,15 +9,17 @@ Postman collection x3 requests
 Enable Macie
 Enable GuardDuty
 Enable Config
+Enable Security Hub
 
 ---- Macie ----
+Enable send sensitive-data findings to Security Hub
 Start job w/name and UK nat in enabled
 leave for 10-20 minutes
 
 
 ---- Config ----
 (s3-bucket-level-public-access-prohibited)
-S3 bucket add to parameter
+S3 bucket add to parameter of rule
 Re-evaluate
 
 ---- Guard Duty ----
@@ -31,5 +33,17 @@ Disable rules that don't apply
 
 Add eventbridge rule
  - Create SNS topic + subcription
+ - Hook up to Macie
 
 Redo Macie Job
+
+- Hook up to Security Hub (won't trigger)
+
+--- Tear down ---
+Security Hub - settings/disable
+Config - Settings/diable recording (wait) ... delete rules
+Macie - Settings/disable
+Guard Duty - Settings/disable
+S3 - Empty + delete config bucket
+EB rule
+SNS
